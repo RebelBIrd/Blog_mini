@@ -1,7 +1,8 @@
 # coding:utf-8
 import sys
+from imp import reload
 reload(sys)
-sys.setdefaultencoding('utf-8')
+# sys.setdefaultencoding('utf-8')
 
 from datetime import datetime
 import json
